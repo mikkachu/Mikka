@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>cplusplus</title>
+		<link rel="stylesheet" type="text/css" href="style3.css">
+		<link href="https://fonts.googleapis.com/css?family=Dosis:200|Roboto:100" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dosis:200|Megrim|Poiret+One" rel="stylesheet">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>MIKKACHU</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index3.html">HOME</a></li>
+					<li><a href="aboutme.html">ABOUT ME</a></li>
+					<li><a href="cplusplus.html">C++</a></li>
+					<li><a href="html.html">HTML/CSS</a></li>
+					<li><a href="interests.html">INTERESTS</a></li>
+				</ul>
+			</nav>
+			<div class="leftcontent">
+				<h3 class="h3headings">C++ Programs!</h3>
+				<p class="content">
+				Mikka has put her HEART AND SOUL into her C++ projects. Working longgggg hours to get them done. Dedication is an understatement in regard to her programming. Despite the endless challenges 
+				and arguments she's had with her computer, along with her computer's critical and unfair attitude towards her, she's managed to get the work done. 
+				</p>
+				<p class="content">
+				The C++ Final Project (top image) was by far the most challenging and complex. Mikka coded Tic Tac Toe where the user could play up to 5 games while having their scores recorded. They could also choose 
+				to play with another player or against the computer. The program includes random assortment, arrays and strings. 
+				</p>
+				<p class="content">
+				Mikka's Vending Machine (middle image) was quite successful. The vending machine sold poisons: Cyanide, botulinum, batchrotoxin 
+				to name a few. Like the Final Project, the Vending Machine was very long indeed. Mikka spent many hours on the project in order to make it the best it could be. If you are looking for 
+				lethal poisons, some with the potential of killing via respiratory failure and severe motor skill impairment, the Vending Machine is right for you. 
+				</p>
+				<p class="content">
+				The Scary door project (bottom image)(spoiler alert) includes no way of winning (the best result possible is getting stuck in a hole). The possible outcomes include getting stucked into a black hole, 
+				eaten by dogs, killed by robotic pigs while being poisoned by sulphuric acid, getting stuck in a hole, electrocuted by a metaphysical sphere or getting stuck in a metaphysical sphere.
+				Overall, the punctuation graphics and program itself turned out well.
+				</p>
+				<p class="content">
+				Despite the computer's disliking of Mikka, Mikka really enjoyed C++ and hopes to use it in her future career.
+				</p>
+			</div>
+			<div class="rightcontent">
+			<h3 class="h3headingsright">Final Project</h3>
+			<!-- HTML generated using hilite.me and edited by Mikka-->
+				<div style="background: #ffffff; overflow:auto; width: 410px; margin: 10px; border: 2px solid #E8EAEA; 
+				padding: 10px;">
+<pre style="margin: 0; line-height: 125%">
+<span style="color: #FA7494; font-weight: bold">void</span> 
+<span style="color: #0066BB; font-weight: bold">gameResults</span>() {
+    
+    <span style="color: #C679DC">//displays results</span>
+        <span style="color: #FA74DD">cout</span> <span style="color: #333333">&lt;&lt;</span><span 
+        style="background-color: #ffffff">&quot;Player 1 | Player 2</span><span style="color: #666666; 
+        font-weight: bold; background-color: #ffffff">\n\n</span><span 
+        style="background-color: #ffffff">&quot;</span>;
+        <span style="color: #FA7494; font-weight: bold">for</span> (<span style="color: #333399; 
+        font-weight: bold">char</span> i <span style="color: #333333">=</span> <span style="color: #EBA61E; 
+        font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> <span style="color: #EBA61E; 
+        font-weight: bold">5</span>; i<span style="color: #333333">++</span>) {
+        
+        <span style="color: #FA74DD">cout</span> <span style="color: #333333">&lt;&lt;</span> playeroneResults [i] <span style="color: #333333">&lt;&lt;</span> <span style="color: #56B5C3; background-color: #ffffff">&quot;|&quot;</span> <span style="color: #333333">&lt;&lt;</span> playertwoResults [i] <span style="color: #333333">&lt;&lt;</span> <span style="background-color: #ffffff">&quot;</span><span style="color: #56B5C3 font-weight: bold; background-color: #ffffff">\n</span><span style="background-color: #ffffff">&quot;</span>;
+    }
+}
+</pre></div>
+
+<h3 class="h3headingsright">Vending Machine</h3>
+
+<!-- HTML generated using hilite.me and edited by Mikka-->
+			<div style="background: #ffffff; overflow:auto; width:410px; height: 250px; margin: 10px; border: 2px solid #E8EAEA;padding:.2em .6em;">
+			<pre style="margin: 10px; line-height: 125%"><span style="color: #C679DC">//user wants to update money collected</span>
+            <span style="color: #FA7494; font-weight: bold">else if</span>(updateSomething <span style="color: #333333">==</span> <span style="color: #EBA61E">&#39;m&#39;</span> <span style="color: #333333">||</span> updateSomething <span style="color: #333333">==</span> <span style="color: #EBA61E">&#39;m&#39;</span>) {
+                <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="color: #56B5C3">&quot;Would you like to add money to the vending machine or take away? (to add money input p, to take away money input m)</span><span style="color: #666666; font-weight: bold; background-color: #fff">\n</span><span>&quot;</span>;
+                <span style="color: #C679DC">//user chooses whether they would to like add or take away money from the vending machine</span>
+                <span style="color: #FA74DD">cin </span><span style="color: #333333">&gt;&gt;</span> moneyUpdate;
+            
+                <span style="color: #C679DC">//user chooses to add money</span>
+                <span style="color: #FA7494; font-weight: bold">if</span> (moneyUpdate <span style="color: #333333">==</span> <span style="color: #EBA61E">&#39;p&#39;</span> <span style="color: #333333">||</span> moneyUpdate <span style="color: #333333">==</span> <span style="color: #EBA61E">&#39;P&#39;</span>) {
+                    <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="color: #56B5C3">&quot;What would you like to add money to? (To update aresenic input a; to update cyanide input c; to update matiotoxin input m; to update botulinum toxin input 1; to update batrachotoxin input 2; to update VX input v; to update ricin input r).</span><span style="color: #666666; font-weight: bold;>\n</span><span>&quot;</span>;
+                    cin <span style="color: #333333">&gt;&gt;</span> poisonmoneyAdd;
+                
+                    <span style="color: #C679DC">//user chooses to add money to arsenic</span>
+                    <span style="color: #FA7494; font-weight: bold">if</span> (poisonmoneyAdd <span style="color: #333333">==</span> <span style="color: #EBA61E">&#39;a&#39;</span> <span style="color: #333333">||</span> poisonmoneyAdd <span style="color: #333333">==</span> <span style="color: #EBA61E">&#39;A&#39;</span>) {
+                        <span style="color: #FA74DD">cout</span> <span style="color: #333333">&lt;&lt;</span><span style="color: #56B5C3">&quot;How much money would you like to add to arsenic?</span><span style="color: #666666; font-weight: bold;>\n</span><span style="background-color: #fff">&quot;</span>;
+                        <span style="color: #FA74DD">cin </span><span style="color: #333333">&gt;&gt;</span>moneyAdd;
+                        <span style="color: #C679DC">//calculates money that arsenic has in the vending machine</span>
+                        moneyCollected[<span style="color: #EBA61E; font-weight: bold">0</span>] <span style="color: #333333">=</span> moneyCollected[<span style="color: #EBA61E; font-weight: bold">0</span>] <span style="color: #333333">+</span> moneyAdd;
+                        <span style="color: #FA74DD">cout </span><span style="color: #333333">&lt;&lt;</span><span style="color: #56B5C3">&quot;As of now, arsenic has&quot;</span> <span style="color: #333333">&lt;&lt;</span> moneyCollected[<span style="color: #EBA61E; font-weight: bold">0</span>] <span style="color: #333333">&lt;&lt;</span> <span>&quot; dollars in the vending machine</span><span style="color: #666666; font-weight: bold">\n</span><span>&quot;</span>;
+                        <span style="color: #C679DC">//asks user if they want to buy a poison or update anything else</span>
+                        <span style="color: #FA74DD">cout </span><span style="color: #333333">&lt;&lt;</span><span style="color: #56B5C3">&quot;Would you like to purchase a poison or update anything else? (y/n)</span><span style="color: #666666; font-weight: bold;>\n</span><span style="background-color: #fff">&quot;</span>;
+                        <span style="color: #FA74DD">cin </span><span style="color: #333333">&gt;&gt;</span> updateAgain;
+                    }
+                    <span style="color: #C679DC">//user chooses to add money to cyanide</span>
+                    <span style="color: #FA7494; font-weight: bold">else if</span> (poisonmoneyAdd <span style="color: #333333">==</span> <span style="color: #EBA61E">&#39;c&#39;</span> <span style="color: #333333">||</span> poisonmoneyAdd <span style="color: #333333">==</span> <span style="color: #EBA61E">&#39;C&#39;</span>) {
+                        <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="color: #56B5C3">&quot;How much money would you like to add to cyanide?</span><span style="color: #666666; font-weight: bold; background-color: #fff">\n</span><span>&quot;</span>;
+                        <span style="color: #FA74DD">cin </span><span style="color: #333333">&gt;&gt;</span>moneyAdd;
+                        <span style="color: #C679DC">//calculates money that cyanide has in the vending machine</span>
+                        moneyCollected[<span style="color: #EBA61E; font-weight: bold">1</span>] <span style="color: #333333">=</span> moneyCollected[<span style="color: #EBA61E; font-weight: bold">1</span>] <span style="color: #333333">+</span> moneyAdd;
+                        <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="color: #56B5C3">&quot;As of now, cyanide has &quot;</span> <span style="color: #333333">&lt;&lt;</span> moneyCollected[<span style="color: #EBA61E; font-weight: bold">1</span>] <span style="color: #333333">&lt;&lt;</span> <span>&quot; dollars in the vending machine\n</span><span>&quot;</span>;
+                        <span style="color: #C679DC">//asks user if they want to buy a poison or update anything else</span>
+                        <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="color: #56B5C3">&quot;Would you like to purchase a poison or update anything else? (y/n)\n</span><span>&quot;</span>;
+                        <span style="color: #FA74DD">cin </span><span style="color: #333333">&gt;&gt;</span> updateAgain;
+</pre></div>
+
+			<h3 class="h3headingsright"> Scary Door</h3>
+
+			<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:410px; height: 250px; margin: 10px;border: 2px solid #E8EAEA;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #C679DC">//user chose hallway</span>
+        <span style="color: #FA7494; font-weight: bold">if</span> (holeSecond <span style="color: #333333">==</span> <span style="color: #EBA61E">&#39;d&#39;</span> <span style="color: #333333">||</span> holeSecond <span style="color: #333333">==</span> <span style="color: #EBA61E">&#39;D&#39;</span>){
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span> <span style="background-color: #fff; color: #56B5C3">&quot;Oh look at all the dogs! I guess the song did mean something...\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                                                           \n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                           /)    /)                         \n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                          /  )--/  )\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                         /  ---/    )\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                        |      |    |\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                        |(.)(.)|    |\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                        /      /    |\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                       /      /|    |\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                        ####/  |    |\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                         ##/  ^/    |\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                         /^  ^//|   |\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                        /^^^^// |   |\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;                        ----//  |   |\n"</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;The dogs seem to be enjoying the taste of your thyroid.\n</span><span style="background-color: #fff">&quot;</span>;
+            <span style="color: #FA74DD">cout</span><span style="color: #333333">&lt;&lt;</span><span style="background-color: #fff; color: #56B5C3">&quot;Would you like to play again (y/n)? (you died by the way)\n</span><span style="background-color: #fff">&quot;</span>;
+            <span style="color: #C679DC">//user chooses to play again or not to play again</span>
+            <span style="color: #FA74DD">cin </span><span style="color: #333333">&gt;&gt;</span> playAgain;
+</pre></div>
+
+
+
+
+			</div>
+			<footer>
+				<p class="copyright">
+				This website was designed by Mikka Stasiuk &copy; 2017
+				</p>
+			</footer>
+		</div>
+	</body>
+	</html>

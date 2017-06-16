@@ -1,0 +1,233 @@
+* {
+padding: 0;
+margin: 0;
+ }
+ 
+div.wrapper {
+	width: 930px;
+	margin: 0 auto;
+}
+
+header {
+	background-image: url("images/download-1.jpg");
+	border-left: 2px solid #E8EAEA;
+	border-right: 2px solid #E8EAEA;
+	border-bottom: 2px solid #E8EAEA;
+	font-family: 'Megrim', cursive;
+	text-align: center;
+	line-height: 230px;
+	height: 230px;
+	width: 906px;
+	color: #555050;
+	font-size: 250%;
+	margin: 0 10px 0 10px;
+}
+
+header:hover {
+	background-image: url("images/spiralred.png");
+	transition: 1s;
+}
+
+nav {
+	width: 910px;
+	height:45px;
+	text-align: center;
+	line-height: 15px;
+	background: #E8EAEA;	
+	display: flex;
+	margin: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	margin: 48px;
+	text-decoration: none;
+	color: #6B6367;
+	font-family: 'Poiret One', cursive;
+	height: 45px;
+	width: 900px;
+	padding: 10px 0 10px 0;
+	line-height: 45px;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	color: #61CDEB;
+}
+
+body {
+	background: #fff;
+}
+
+div.leftcontent {
+	line-height: 25px;
+	font-family: 'Poiret One', cursive;
+	font-weight: extra light;
+	width: 410px;
+	margin: 10px;
+	float: left;
+	color: #6B6367;
+	background: #E8EAEA;
+	padding: 10px;
+	text-indent: 25px;
+
+}
+
+div.rightcontent {
+	float: left;
+	width: 455px;
+	margin: 10px 0 5px 10px;
+	border: 2px solid #E8EAEA;
+}
+table {
+	padding: 10px;
+}
+
+td {
+	margin: 0 auto;
+	padding: 10px;
+	font-family: 'Poiret One', cursive;
+	font-weight: extra light;
+	color: #6B6367;
+}
+
+td.quarks {
+	background-color: #CAECE8;
+}
+
+td.leptons {
+	background-color: #EEE0F6;
+}
+
+td.gaugebosons {
+	background-color: #FFDDC6;
+}
+
+#higgsboson {
+	background-color: #D7E9EE;
+}
+
+#Qbullets {
+	list-style-type: square;
+	color: #CAECE8;
+	list-style-position: inside;
+	font-size: 24px;
+}
+
+#Lbullets {
+	list-style-type: square;
+	color: #EEE0F6;
+	list-style-position: inside;
+	font-size: 24px;
+}
+#Gbullets {
+	list-style-type: square;
+	color: #FFDDC6;
+	list-style-position: inside;
+	font-size: 24px;
+}
+#Hbullets {
+	list-style-type: square;
+	color: #D7E9EE;
+	list-style-position: inside;
+	padding: 0 0 10px 0;
+	font-size: 24px;
+}
+
+tr.forces {
+	background-color: #B9EED1;
+}
+tr.bosons {
+	background-color: #CAE5F4;
+}
+tr.particles {
+	background-color: #F4CAED;
+}
+
+p.content {
+	padding: 10px 0 10px 0;
+}
+
+#lhc {
+	padding: 10px 0 0 10px;
+}
+
+#ems {
+	padding: 10px 0 0 10px;
+	float: left;
+}
+
+#semi {
+	padding: 10px 0 0 10px;
+	float: left;
+}
+
+h3.puns {
+	font-family: 'Megrim', cursive;
+	color: #555050;
+	float: left;
+	padding: 10px 0 5px 10px
+}
+
+h5 {
+	font-family: 'Megrim', cursive;
+	color: #555050;
+	padding: 2px 0 0 10px;
+	width: 450px;
+	height: 20px;
+}
+
+.punss {
+	line-height: 125%;
+	font-family: 'Poiret One', cursive;
+	width: 410px;
+	padding: 20px 10px 20px 10px;
+	float: left; 
+	border: 2px solid #E8EAEA;
+	margin: 0 10px 10px 10px;
+}
+
+h3.h3headings {
+	font-family: 'Megrim', cursive;
+	color: #555050;
+}
+
+h3.h3headingsright {
+	font-family: 'Megrim', cursive;
+	margin: 10px 0 0 10px;
+	color: #555050;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	font-family: 'Poiret One', cursive;
+	text-indent: 25px;
+}
+
+footer {
+	background: #fff;
+	width: 896px;
+	border: 2px solid #E8EAEA;
+	float: left;
+	padding: 0 0 0 10px;
+	font-family: 'Poiret One', cursive;
+	line-height: 50px;
+	margin: 10px 10px 0 10px;
+	color: #B2B2B2;
+	clear: both;
+}
+
+p.copyright {
+	padding: 10px 0 10px 0;
+}
