@@ -123,7 +123,7 @@ td.gaugebosons {
 
 #Lbullets {
 	list-style-type: square;
-	color: #EEE0F6;
+ 	color: #EEE0F6;
 	list-style-position: inside;
 	font-size: 24px;
 }
@@ -200,6 +200,7 @@ h3.h3headings {
 	color: #555050;
 }
 
+
 h3.h3headingsright {
 	font-family: 'Megrim', cursive;
 	margin: 10px 0 0 10px;
@@ -222,6 +223,8 @@ ul li {
 	line-height: 15px;
 	color: #6B6367;	
 	display: flex;
+	clear: both;
+	
 }
 
 .pagination:hover {
@@ -230,6 +233,7 @@ ul li {
 	line-height: 15px;
 	color: #61CDEB;	
 	display: flex;
+	clear: both;
 }
 
 footer {
