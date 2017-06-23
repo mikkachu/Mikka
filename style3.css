@@ -176,6 +176,7 @@ h3.puns {
 	padding: 10px 0 5px 10px
 }
 
+
 h5 {
 	font-family: 'Megrim', cursive;
 	color: #555050;
@@ -213,6 +214,22 @@ ul {
 ul li {
 	font-family: 'Poiret One', cursive;
 	text-indent: 25px;
+}
+
+.pagination {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	line-height: 15px;
+	color: #E8EAEA;	
+	display: flex;
+}
+
+.pagination:hover {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	line-height: 15px;
+	background: #E8EAEA;	
+	display: flex;
 }
 
 footer {
