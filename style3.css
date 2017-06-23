@@ -217,21 +217,21 @@ ul li {
 }
 
 .pagination {
-	text-align: centre;
+	text-align: center;
 	font-family: 'Poiret One', cursive;
 	line-height: 15px;
 	color: #6B6367;	
 	clear: both;
-	text-decoration: non;
+	text-decoration: none;
 }
 
 .pagination:hover {
-	text-align: centre;
+	text-align: center;
 	font-family: 'Poiret One', cursive;
 	line-height: 15px;
 	color: #61CDEB;	
 	clear: both;
-	text-decoration: non;
+	text-decoration: none;
 }
 
 footer {
