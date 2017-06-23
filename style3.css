@@ -185,8 +185,7 @@ h5 {
 	height: 20px;
 }
 
-.punss {
-	line-height: 125%;
+.punss {	line-height: 125%;
 	font-family: 'Poiret One', cursive;
 	width: 410px;
 	padding: 20px 10px 20px 10px;
@@ -218,7 +217,7 @@ ul li {
 }
 
 .pagination {
-	text-align: center;
+	text-align: centre;
 	font-family: 'Poiret One', cursive;
 	line-height: 15px;
 	color: #6B6367;	
@@ -228,7 +227,7 @@ ul li {
 }
 
 .pagination:hover {
-	text-align: center;
+	text-align: centre;
 	font-family: 'Poiret One', cursive;
 	line-height: 15px;
 	color: #61CDEB;	
