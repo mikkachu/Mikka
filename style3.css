@@ -121,6 +121,7 @@ td.gaugebosons {
 	font-size: 24px;
 }
 
+
 #Lbullets {
 	list-style-type: square;
  	color: #EEE0F6;
@@ -141,6 +142,7 @@ td.gaugebosons {
 	font-size: 24px;
 }
 
+
 tr.forces {
 	background-color: #B9EED1;
 }
@@ -157,6 +159,17 @@ p.content {
 
 #lhc {
 	padding: 10px 0 0 10px;
+	position: relative;
+}
+
+#lhc:before {
+	position: absolute;
+	background-image: linear-gradient(right, #111 11%, #333 56%);
+    background-image: -o-linear-gradient(right, #111 11%, #333 56%);
+    background-image: -moz-linear-gradient(right, #111 11%, #333 56%);
+    background-image: -webkit-linear-gradient(right, #111 11%, #333 56%);
+    background-image: -ms-linear-gradient(right, #111 11%, #333 56%);
+    background-image: gradient(right, #111 11%, #333 56%);
 }
 
 #ems {
