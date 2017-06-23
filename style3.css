@@ -160,6 +160,7 @@ p.content {
 #lhc {
 	padding: 10px 0 0 10px;
 	position: relative;
+	filter: brightness(1.25);
 }
 
 #lhc:before {
@@ -175,11 +176,13 @@ p.content {
 #ems {
 	padding: 10px 0 0 10px;
 	float: left;
+	filter: brightness(1.25);
 }
 
 #semi {
 	padding: 10px 0 0 10px;
 	float: left;
+	filter: brightness(1.25);
 }
 
 h3.puns {
